@@ -1,0 +1,27 @@
+.agendar-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: stretch;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.agendar-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+   
+
+    #agendar-form {
+        padding: 30px;
+    }
+}
