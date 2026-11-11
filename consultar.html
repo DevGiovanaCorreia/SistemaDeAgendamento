@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consultar</title>
+    <link rel="stylesheet" href="css/consultar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body class="bd">
+
+ <header class="navbar shadow p-4 mb-5  rounded">
+      <nav class="nav  ">
+    
+        <a href="index.html">Home</a>
+        <a href="agendar.html">Agendar</a>
+        <a href="consultar.html">Consultar</a>
+        
+    
+
+
+</nav>   
+
+
+  </header>
+    
+   
+
+ 
+
+
+   <main class="container text-center   rounded shadow ">
+  
+        <div class="tabela p-5 mx-auto" style="max-width: 650px;"> 
+           <h2>Historico de Agendamentos</h2>
+  
+
+ <div class="filtro mb-4 p-3  mx-auto">
+
+           <div> <label for="filtroData" class="form-label ">Filtrar por Data</label></div>
+           <div> <input type="date" id="filtroData" class="form-control "></div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>nome</th>
+                    <th>Data</th>
+                    <th>Horário</th>
+                    
+                    
+                </tr>
+            </thead>
+
+            <tbody id="tabelaAgendamentos">
+                <!-- Os agendamentos serão inseridos aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+
+</div>
+
+
+        
+        
+
+    </main>
+
+
+
+
+
+    <footer >
+        <p>&copy;  Sistema de Agendamento</p>
+    </footer>  
+     
+</body>
+</html>
