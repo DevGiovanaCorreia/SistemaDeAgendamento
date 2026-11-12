@@ -13,6 +13,12 @@
     
 }
 
+#tabelaAgendamentos tr.selecionado {
+    background-color: #406E8E;
+    color: white;
+    cursor: pointer;
+}
+
 .tabela table{
     width: 100%;
     border-collapse: collapse;
@@ -25,7 +31,7 @@
 
 .tabela th{
    padding: 15px;
-    color: #475569;
+    color: black;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -35,10 +41,12 @@
 
 .tabela td{
     padding: 16px 15px;
-    color: #475569;
+    color: white;
     font-size: 14px;
-    border-bottom: 1px solid #e2e8f0; 
+    border-bottom: 1px solid #e2e8f0;
 }
+
+
 
 .filtro{
     display: flex;
