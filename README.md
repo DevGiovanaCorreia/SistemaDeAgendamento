@@ -1,6 +1,6 @@
 Sistema de Agendamento
 
-🌐 Acesse a aplicação: Clique aqui para visualizar o sistema
+🌐 **Acesse a aplicação:** [Sistema de Agendamento](https://devgiovanacorreia.github.io/SistemaDeAgendamento/)
 
 O Sistema de Agendamento é uma aplicação web desenvolvida para facilitar o agendamento e a consulta de compromissos de clientes. Possui uma interface simples e intuitiva, permitindo navegar entre as opções de agendamento e consulta da agenda.
 
